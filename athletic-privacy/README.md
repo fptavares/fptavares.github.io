@@ -9,3 +9,6 @@ The application accesses workout data from Apple's HealthKit, but only for displ
 The user can create a workout routine and custom goals in the application, but that data is only stored locally in the mobile device where the application is installed. The data kept in the local storage of the application will be deleted once the application is deleted from that mobile device.
 
 No personally identifiable information is collected. No data is ever sent to any servers or third parties.
+
+
+Last modified on January 13, 2018
