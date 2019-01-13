@@ -11,4 +11,4 @@ The user can create a workout routine and custom goals in the application, but t
 No personally identifiable information is collected. No data is ever sent to any servers or third parties.
 
 
-Last modified on January 13, 2018
+Last modified on January 13, 2019
