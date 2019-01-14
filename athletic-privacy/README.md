@@ -10,7 +10,7 @@ No personally identifiable information is collected.
 
 ## Google Analytics
 
-The application collects anonymous usage data through Google Analytics, for the purpose of understanding the most common usage patterns to further inform future development. This is limited collecting which screens are loaded and which activity types are used. This analytics data is fully anonymized: no user ID is collected, no device ID is collected, no cookies are used, and even the IP address is anonymized. No personally identifiable information is collected.
+The application collects anonymous usage data through Google Analytics, for the purpose of understanding the most common usage patterns to further inform future development. This is limited collecting which features and activity types are used. This analytics data is fully anonymized: no user ID is collected, no device ID is collected, no cookies are used, and even the IP address is anonymized. No personally identifiable information is collected.
 
 
 Last modified on January 14, 2019
