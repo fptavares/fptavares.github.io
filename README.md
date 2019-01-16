@@ -14,6 +14,6 @@
 
 <br/>
 
-[github.com/fptavares](https://github.com/fptavares)
+<a href="https://github.com/fptavares">github.com/fptavares</a>
 
 </div>
