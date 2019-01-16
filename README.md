@@ -1,6 +1,11 @@
 # fptavares.github.io
 
-<div style="background-color: #312f2d; color: #fff">
-  <a href="https://fptavares.github.io/record-scrobbler/record-scrobbler/"><img src="https://fptavares.github.io/record-scrobbler/static/media/logo.c2ccc92f.svg" style="height: 80px" alt="Home"></a>
-  .record scrobbler.
+<div style="text-align:center">
+  
+<a href="https://itunes.apple.com/us/app/id1448639259&mt=8"><img src="/img/athletic.png" width="240" alt="Athletic"/></a>
+
+<a href="https://fptavares.github.io/record-scrobbler/"><img src="/img/record-scrobbler.png" width="240" alt="Record Scrobbler"/></a>
+
+<a href="https://modofun.js.org"><img src="https://raw.githubusercontent.com/modofunjs/modofun/master/assets/images/modofun-logo-wide.png" width="240" alt="Modofun"/></a>
+
 </div>
