@@ -10,4 +10,10 @@
 
 <a href="https://modofun.js.org"><img src="https://raw.githubusercontent.com/modofunjs/modofun/master/assets/images/modofun-logo-wide.png" height="50" alt="Modofun"/></a>
 
+<br/>
+
+<br/>
+
+https://github.com/fptavares
+
 </div>
