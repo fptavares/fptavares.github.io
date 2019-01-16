@@ -6,6 +6,8 @@
 
 <a href="https://fptavares.github.io/record-scrobbler/"><img src="/img/record-scrobbler.png" width="240" alt="Record Scrobbler"/></a>
 
+<br/>
+
 <a href="https://modofun.js.org"><img src="https://raw.githubusercontent.com/modofunjs/modofun/master/assets/images/modofun-logo-wide.png" width="240" alt="Modofun"/></a>
 
 </div>
