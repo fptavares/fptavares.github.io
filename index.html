@@ -25,13 +25,12 @@ body {
   font-family: 'Lato', sans-serif;
   background-color: #903749;
 }
-.centered {
+.banners {
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align:center;
-  background-color: #fff;
   width: auto;
   height: auto;
   -webkit-box-shadow: 3px 3px 20px 1px rgba(0,0,0,0.4);
@@ -45,7 +44,6 @@ body {
 }
 .logo:hover {
   filter: saturate(0) invert(100%);
-  transition: all 0.2s ease-out;
 }
 .footer {
   position: fixed;
@@ -67,8 +65,7 @@ body {
   right: 20px;
   bottom: 20px;
   color: #fff;
-  z-index: -1;
-  font-size: 1.5em;
+  font-size: 24px;
 }
 .social a {
   display: block;
@@ -77,10 +74,27 @@ body {
 .social a:hover {
   color: #fff;
 }
+@media (max-height:600px) {  
+  body {
+    position: relative;
+    height: 550px;
+  }
+
+  .banners, .footer, .social {
+    position: absolute;
+  }
+  .banners {
+    top: 20px;
+    transform: translate(-50%, 0);
+  }
+  .social {
+    right: 5px;
+  }
+}
 </style>
   </head>
   <body>
-    <div class="centered">
+    <div class="banners">
       <a href="https://itunes.apple.com/us/app/athletic/id1448639259?mt=8"><img src="img/athletic.png" alt="Athletic" class="logo" /></a>
       <a href="https://modofun.js.org"><img src="img/modofun.png" class="logo" alt="Modofun" /></a>
       <a href="https://fptavares.github.io/record-scrobbler/"><img src="img/record-scrobbler.png" alt="Record Scrobbler" class="logo" /></a>
