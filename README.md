@@ -1,5 +1,3 @@
-# fptavares.github.io
-
 <div style="text-align:center">
   
 <a href="https://itunes.apple.com/us/app/id1448639259&mt=8"><img src="/img/athletic.png" height="125" alt="Athletic" style="border-radius: 20%;"/></a>
