@@ -15,8 +15,14 @@
     {"headline":"Filipe Tavares's projects home","@type":"WebSite","url":"https://fptavares.github.io/","name":"Filipe's projects","@context":"http://schema.org"}</script>
     <meta name="google-site-verification" content="UlgSLC7Ck5MAVy-UDypzok-qVmjRQ5C8BDXDdSu8M1I" />
 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/brands.css" integrity="sha384-1KLgFVb/gHrlDGLFPgMbeedi6tQBLcWvyNUN+YKXbD7ZFbjX6BLpMDf0PJ32XJfX" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/fontawesome.css" integrity="sha384-jLuaxTTBR42U2qJ/pm4JRouHkEDHkVqH0T1nyQXn1mZ7Snycpf6Rl25VBNthU4z0" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
 <style>
 body {
+  font-family: 'Lato', sans-serif;
   background-color: #903749;
 }
 .centered {
@@ -37,9 +43,9 @@ body {
   width: 240px;
   border-radius: 0%;
 }
-.modofun {
-  padding: 20px 5px 20px 5px;
-  width: 230px;
+.logo:hover {
+  filter: saturate(0) invert(100%);
+  transition: all 0.2s ease-out;
 }
 .footer {
   position: fixed;
@@ -48,22 +54,48 @@ body {
   transform: translate(-50%, 0%);
   color: #fff;
   z-index: -1;
+  opacity: 0.9;
+  text-align: center;
+  font-size: 14px;
 }
 .footer a {
   color: #fff;
   text-decoration: none;
+}
+.social {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  color: #fff;
+  z-index: -1;
+  font-size: 1.5em;
+}
+.social a {
+  display: block;
+  color: #000;
+}
+.social a:hover {
+  color: #fff;
 }
 </style>
   </head>
   <body>
     <div class="centered">
       <a href="https://itunes.apple.com/us/app/athletic/id1448639259?mt=8"><img src="img/athletic.png" alt="Athletic" class="logo" /></a>
-      <a href="https://modofun.js.org"><img src="https://raw.githubusercontent.com/modofunjs/modofun/master/assets/images/modofun-logo-wide.png" class="logo modofun" alt="Modofun" /></a>
+      <a href="https://modofun.js.org"><img src="img/modofun.png" class="logo" alt="Modofun" /></a>
       <a href="https://fptavares.github.io/record-scrobbler/"><img src="img/record-scrobbler.png" alt="Record Scrobbler" class="logo" /></a>
     </div>
 
     <div class="footer">
-      <a href="https://github.com/fptavares">github.com/fptavares</a>
+      Projects actively maintained<br/>
+      by Filipe Tavares
+    </div>
+
+    <div class="social">
+      <a href="https://github.com/fptavares"><i class="fab fa-github-square" alt="GitHub" title="GitHub"></i></a>
+      <a href="https://www.linkedin.com/in/ftavares"><i class="fab fa-linkedin"></i></a>
+      <a href="https://medium.com/@fptavares"><i class="fab fa-medium"></i></a>
+      <a href="https://twitter.com/fptava"><i class="fab fa-twitter-square"></i></a>
     </div>
   </body>
 </html>
