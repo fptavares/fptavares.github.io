@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Filipe's projects home</title>
-    <meta property="og:title" content="Filipe's projects home" />
+    <title>Scrobbler app</title>
+    <meta property="og:title" content="Scrobbler app" />
     <meta property="og:locale" content="en_US" />
-    <link rel="canonical" href="https://fptavares.github.io/" />
-    <meta property="og:url" content="https://fptavares.github.io/" />
-    <meta property="og:site_name" content="Filipe's projects home" />
+    <link rel="canonical" href="https://fptavares.github.io/scrobbler" />
+    <meta property="og:url" content="https://fptavares.github.io/scrobbler" />
+    <meta property="og:site_name" content="Scrobbler app" />
     <script type="application/ld+json">
-    {"headline":"Filipe Tavares's projects home","@type":"WebSite","url":"https://fptavares.github.io/","name":"Filipe's projects","@context":"http://schema.org"}</script>
+    {"headline":"Scrobbler app","@type":"WebSite","url":"https://fptavares.github.io/scrobbler","name":"Scrobbler","@context":"http://schema.org"}</script>
     <meta name="google-site-verification" content="UlgSLC7Ck5MAVy-UDypzok-qVmjRQ5C8BDXDdSu8M1I" />
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/brands.css" integrity="sha384-1KLgFVb/gHrlDGLFPgMbeedi6tQBLcWvyNUN+YKXbD7ZFbjX6BLpMDf0PJ32XJfX" crossorigin="anonymous">
@@ -23,11 +23,11 @@
 <style>
 body {
   font-family: 'Lato', sans-serif;
-  background-color: #903749;
+  background-color: #377690;
 }
 .banners {
   position: fixed;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align:center;
@@ -39,11 +39,11 @@ body {
 }
 .logo {
   display: block;
-  width: 240px;
+  width: 360px;
   border-radius: 0%;
 }
 .logo:hover {
-  filter: saturate(0) invert(10%);
+  filter: saturate(0) invert(80%);
 }
 .footer {
   position: fixed;
@@ -74,10 +74,13 @@ body {
 .social a:hover {
   color: #fff;
 }
-@media (max-height:700px) {
+.store:hover {
+  filter: saturate(0) invert(100%);
+}
+@media (max-height:650px) {
   body {
     position: relative;
-    height: 650px;
+    height: 550px;
   }
 
   .banners, .footer, .social {
@@ -89,6 +92,7 @@ body {
   }
   .footer {
     bottom: 80px;
+    z-index: 100;
   }
   .social {
     bottom: 10px;
@@ -101,15 +105,14 @@ body {
   </head>
   <body>
     <div class="banners">
-      <a href="https://fptavares.github.io/scrobbler/"><img src="img/scrobbler.png" alt="Scrobbler app" class="logo" /></a>
-      <a href="https://itunes.apple.com/us/app/athletic/id1448639259?mt=8"><img src="img/athletic.png" alt="Athletic" class="logo" /></a>
-      <a href="https://modofun.js.org"><img src="img/modofun.png" alt="Modofun" class="logo" /></a>
-      <a href="https://fptavares.github.io/record-scrobbler/"><img src="img/record-scrobbler.png" alt="Record Scrobbler" class="logo" /></a>
+      <a href="https://github.com/fptavares/scrobbler"><img src="../img/scrobbler.png" alt="Scrobbler app" class="logo" /></a>
     </div>
 
     <div class="footer">
-      Projects actively maintained<br/>
-      by <a href="https://github.com/fptavares">Filipe Tavares</a>
+      <p><a href="https://apps.apple.com/us/app/scrobbler/id1505776204?mt=8" class="store" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2020-04-11&kind=iossoftware&bubble=ios_apps) no-repeat;width:135px;height:40px;"></a></p>
+      <p><a href='https://play.google.com/store/apps/details?id=io.github.fptavares.scrobbler&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img class='store' style='width:156px;margin-top:-12px;' alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a></p>
+
+      <p>App created by <a href="https://fptavares.github.io">Filipe Tavares</a></p>
     </div>
 
     <div class="social">
