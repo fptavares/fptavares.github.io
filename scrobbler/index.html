@@ -16,6 +16,7 @@
     <meta name="google-site-verification" content="UlgSLC7Ck5MAVy-UDypzok-qVmjRQ5C8BDXDdSu8M1I" />
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/brands.css" integrity="sha384-1KLgFVb/gHrlDGLFPgMbeedi6tQBLcWvyNUN+YKXbD7ZFbjX6BLpMDf0PJ32XJfX" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/solid.css" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/fontawesome.css" integrity="sha384-jLuaxTTBR42U2qJ/pm4JRouHkEDHkVqH0T1nyQXn1mZ7Snycpf6Rl25VBNthU4z0" crossorigin="anonymous">
 
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
@@ -77,25 +78,44 @@ body {
 .store:hover {
   filter: saturate(0) invert(100%);
 }
-@media (max-height:650px) {
+.top-bar {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  font-size: 30px;
+}
+.top-bar a {
+  color: #903749;
+}
+.top-bar a:hover {
+  color: #fff;
+}
+@media (max-height:700px) {
   body {
     position: relative;
-    height: 550px;
+    height: 500px;
   }
 
-  .banners, .footer, .social {
+  .banners, .footer, .social, .top-bar {
     position: absolute;
   }
+  .top-bar {
+    top: 5px;
+    left: 10px;
+  }
   .banners {
-    top: 20px;
+    top: 60px;
     transform: translate(-50%, 0);
+  }
+  .logo {
+    width: 240px;
   }
   .footer {
     bottom: 80px;
     z-index: 100;
   }
   .social {
-    bottom: 10px;
+    bottom: 5px;
   }
   .social a {
     display: inline;
@@ -104,6 +124,10 @@ body {
 </style>
   </head>
   <body>
+    <div class="top-bar">
+      <a href="https://fptavares.github.io"><i class="fas fa-home" alt="Home" title="Home"></i></a>
+    </div>
+
     <div class="banners">
       <a href="https://github.com/fptavares/scrobbler"><img src="../img/scrobbler.png" alt="Scrobbler app" class="logo" /></a>
     </div>
@@ -112,7 +136,7 @@ body {
       <p><a href="https://apps.apple.com/us/app/scrobbler/id1505776204?mt=8" class="store" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2020-04-11&kind=iossoftware&bubble=ios_apps) no-repeat;width:135px;height:40px;"></a></p>
       <p><a href='https://play.google.com/store/apps/details?id=io.github.fptavares.scrobbler&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img class='store' style='width:155px;margin-top:-12px;' alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a></p>
 
-      <p>App created by <a href="https://fptavares.github.io">Filipe Tavares</a></p>
+      App created by <a href="https://fptavares.github.io">Filipe Tavares</a>
     </div>
 
     <div class="social">
