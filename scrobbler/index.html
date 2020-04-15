@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Scrobbler app</title>
-    <meta property="og:title" content="Scrobbler app" />
+    <meta property="og:title" content="Scrobbler" />
+    <meta property="og:image" content="https://fptavares.github.io/img/scrobbler.png" />
+    <meta property="og:description" content="An app to scrobble records from a Discogs collection to Last.fm" />
     <meta property="og:locale" content="en_US" />
     <link rel="canonical" href="https://fptavares.github.io/scrobbler" />
     <meta property="og:url" content="https://fptavares.github.io/scrobbler" />
     <meta property="og:site_name" content="Scrobbler app" />
+    <meta name="twitter:card" content="summary_large_image" />
     <script type="application/ld+json">
     {"headline":"Scrobbler app","@type":"WebSite","url":"https://fptavares.github.io/scrobbler","name":"Scrobbler","@context":"http://schema.org"}</script>
     <meta name="google-site-verification" content="UlgSLC7Ck5MAVy-UDypzok-qVmjRQ5C8BDXDdSu8M1I" />
@@ -31,8 +34,9 @@ body {
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-align:center;
-  width: auto;
+  text-align: center;
+  width: 90%;
+  max-width: 360px;
   height: auto;
   -webkit-box-shadow: 3px 3px 20px 1px rgba(0,0,0,0.4);
   -moz-box-shadow: 3px 3px 20px 1px rgba(0,0,0,0.4);
@@ -40,7 +44,7 @@ body {
 }
 .logo {
   display: block;
-  width: 360px;
+  width: 100%;
   border-radius: 0%;
 }
 .logo:hover {
@@ -107,9 +111,6 @@ body {
     top: 80px;
     transform: translate(-50%, 0);
   }
-  .logo {
-    width: 240px;
-  }
   .footer {
     bottom: 80px;
     z-index: 100;
@@ -129,7 +130,7 @@ body {
     </div>
 
     <div class="banners">
-      <a href="https://github.com/fptavares/scrobbler"><img src="../img/scrobbler.png" alt="Scrobbler app" class="logo" /></a>
+      <a href="https://github.com/fptavares/scrobbler"><img src="../img/scrobbler.png" alt="Scrobbler project on GitHub" class="logo" /></a>
     </div>
 
     <div class="footer">
